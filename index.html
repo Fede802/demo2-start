@@ -35,11 +35,11 @@
       <p>L’app si sta avviando. Può richiedere qualche istante dopo un periodo di inattività.</p>
       <div class="status" aria-live="polite"><i class="spinner" aria-hidden="true"></i><span id="status">Connessione al servizio…</span></div>
       <div class="elapsed" id="elapsed"></div>
-      <a id="open-now" href="https://ca-demo2-api-prod.prouddune-02bb4869.italynorth.azurecontainerapps.io/">Apri subito l’app</a>
+      <a id="open-now" href="https://cms-azure-app.federicobravetti.it/">Apri subito l’app</a>
     </main>
     <script>
       (() => {
-        const APP_URL = "https://ca-demo2-api-prod.prouddune-02bb4869.italynorth.azurecontainerapps.io/";
+        const APP_URL = "https://cms-azure-app.federicobravetti.it/";
         const HEALTH_URL = new URL("/api/health", APP_URL).href;
         const POLL_INTERVAL_MS = 1800;
         const startedAt = Date.now();
